@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inscripción</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Formulario de Inscripción</h1>
+<strike></strike>
+    <form action="javascript:mostrar()" id="formulario">
+        <p>
+            <strong>Boleta: </strong> <input type="number" class="entrada" name="boleta" placeholder="2014600212" size="25" required>
+        </p>
+        <p>
+            <strong>Nombre: </strong><input type="text" class="entrada" name="nombre" placeholder="Jair Botello Contreras" size="25" >
+        </p>
+        <p>
+            <strong>Grupo: </strong><input type="text" class="entrada" name="grupo" placeholder="3CV50" >
+        </p>
+        <p>
+            <strong>Materia: </strong><input type="text" class="entrada" name="materia"  placeholder="Programación Web" size="30" >
+        </p>
+        <p>
+            <strong>Fecha: </strong><input type="date" class="entrada" name="fecha" >
+        </p>
+        <p>
+            <input type="submit" class="boton" value="Enviar">
+        </p>
+
+        <p>
+            <h2>Datos Capturados</h2>
+            <strong>Boleta: </strong><output id="salidaBoleta"></output><br> 
+            <strong>Nombre: </strong><output id="salidaNombre"></output><br>
+            <strong>Grupo: </strong><output id="salidaGrupo"></output><br>
+            <strong>Materia: </strong><output id="salidaMateria"></output><br>
+            <strong>Fecha: </strong><output id="salidaFecha"></output>
+        </p>
+    </form>
+
+    <footer>Copyright &copy 2021 - Jair Botello</footer>
+    <script src="control.js"></script>
+</body>
+</html>

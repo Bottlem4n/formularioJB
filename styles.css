@@ -1,0 +1,44 @@
+html{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body{
+    display: inline-block;
+    text-align: left;
+}
+
+.entrada{
+    border-radius: 40px;
+    background: #ffffff;
+    box-shadow:  20px 20px 40px #e6e6e6,
+             -20px -20px 40px #ffffff;
+    text-align: center;
+}
+
+.entrada[name="grupo"]{
+    text-transform: uppercase;
+}
+
+.entrada::placeholder{
+    font-size: small;
+    text-align: center;
+}
+
+.entrada:required{
+    border: thin solid blue;
+}
+
+.boton{
+    width:auto;
+    font-size:medium;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+output,footer{
+    font-size: small;
+    text-align: center;
+}
